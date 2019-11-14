@@ -43,7 +43,7 @@ Archive Scripts: Scripts that will download everything that was created before D
 
 Active Scripts: Scripts that will download everything that was created after January 1, 2019 (included).
 
-These dates will need to be incremented every year June 1 and the content created by the active scripts will need to be moved to the archive (including the `archive.log` that will need to be merged). Why June 1? Because if you increment it in January 1, the active "collections" won't have any content anymore.
+These dates will need to be incremented every year January 1 and the content created by the active scripts will need to be moved to the archive (including the `archive.log` that will need to be merged).
 
 
 # Details : 
