@@ -9,12 +9,11 @@ The ultimate collection of scripts for YouTube-DL
 
 Install [youtube-dl](https://github.com/ytdl-org/youtube-dl) and ffmpeg
 
+Create a folder where you want your videos downloaded in a drive where you have Gigabytes/Terabytes of space available
 
-Create a folder where you want your videos downloaded
+Put the folders `Arctive Scripts` and `Archive Scripts` in it (Read the section named [Archive and Active Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-and-active-scripts) to understand the difference)
 
-Put the folders in it
-
-Add content to one 'Source - XXXXXX.txt' files
+Add content to a 'Source - XXXXXX.txt' file depending of what type of content you want to download (Read the section named [Channels, Playlists, Unique Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#channels-playlists-unique-scripts) to understand the difference)
 
 Open a terminal in the folder of the script you want to use
 
@@ -22,7 +21,7 @@ Open a terminal in the folder of the script you want to use
 
 Done
 
-## Channels, Playlists, Videos Scripts?
+## Channels, Playlists and Unique Scripts?
 
 Three different type of scripts are included depending of what you want to download, the only thing changing is the naming scheme
 
