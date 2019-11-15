@@ -84,7 +84,7 @@ Three different type of scripts are included depending of what you want to downl
 
 (Playlists Scripts) `--output "%(playlist)s (%(uploader)s)/%(upload_date)s - %(title)s/%(upload_date)s - %(title)s.%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `PlaylistName - Uploader/20191231 - Title/20191231 - Title.ext`
 
-(Videos Scripts) `--output "%(title)s - %(uploader)s - %(upload_date)s/%(title)s - %(uploader)s - %(upload_date)s.%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`
+(Unique Scripts) `--output "%(title)s - %(uploader)s - %(upload_date)s/%(title)s - %(uploader)s - %(upload_date)s.%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`
 
 `--merge-output-format "mkv"` : Tell youtube-dl to merge the video and audio that were downloaded separately in a `.mkv` file
 
