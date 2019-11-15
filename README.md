@@ -21,18 +21,8 @@ Open a terminal in the folder of the script you want to use
 
 Done
 
-## Channels, Playlists and Unique Scripts?
-
-Three different type of scripts are included depending of what you want to download, the only thing changing is the naming scheme
-
-`Channels.sh` : Made to download everything made by a creator (naming scheme: `Uploader/Uploader - 20191231 - Title/Uploader - 20191231 - Title.ext`)
-
-`Playlists.sh` : Made to download playlists made by a creator (naming scheme: `PlaylistName - Uploader/20191231 - Title/20191231 - Title.ext`)
-
-`Uniques.sh` : Made to download individual videos made by a creator (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`)
 
 ## Archive and Active Scripts?
-
 
 Downloading and archiving "live" content is complicated, especially because gigabytes of it will be created each day.
 
@@ -43,6 +33,17 @@ Archive Scripts: Scripts that will download everything that was created before D
 Active Scripts: Scripts that will download everything that was created after January 1, 2019 (included).
 
 These dates will need to be incremented every year January 1 and the content created by the active scripts will need to be moved to the archive (including the `archive.log` that will need to be merged).
+
+
+## Channels, Playlists and Unique Scripts?
+
+Three different type of scripts are included depending of what you want to download, the only thing changing is the naming scheme
+
+`Channels.sh` : Made to download everything made by a creator (naming scheme: `Uploader/Uploader - 20191231 - Title/Uploader - 20191231 - Title.ext`)
+
+`Playlists.sh` : Made to download playlists made by a creator (naming scheme: `PlaylistName - Uploader/20191231 - Title/20191231 - Title.ext`)
+
+`Uniques.sh` : Made to download individual videos made by a creator (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`)
 
 
 # Details : 
