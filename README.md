@@ -11,9 +11,9 @@ Install [youtube-dl](https://github.com/ytdl-org/youtube-dl) and ffmpeg
 
 Create a folder where you want your videos downloaded in a drive where you have Gigabytes/Terabytes of space available
 
-Put the folders `Arctive Scripts` and `Archive Scripts` in it (Read the section named [Archive and Active Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-and-active-scripts) to understand the difference)
+Put the folders `Arctive Scripts` and `Archive Scripts` in it (Read the section named "[Archive and Active Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-and-active-scripts)" to understand the differences)
 
-Add content to a 'Source - XXXXXX.txt' file depending of what type of content you want to download (Read the section named [Channels, Playlists and Unique Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#channels-playlists-and-unique-scripts) to understand the difference)
+Add content to a 'Source - XXXXXX.txt' file depending of what type of content you want to download (Read the section named "[Channels, Playlists and Unique Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#channels-playlists-and-unique-scripts)" to understand the differences)
 
 Open a terminal in the folder of the script you want to use
 
