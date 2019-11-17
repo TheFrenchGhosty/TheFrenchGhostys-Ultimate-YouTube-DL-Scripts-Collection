@@ -11,13 +11,13 @@ Install [youtube-dl](https://github.com/ytdl-org/youtube-dl) and ffmpeg
 
 Create a folder where you want your videos downloaded in a drive where you have Gigabytes/Terabytes of space available
 
-Put the folders `Arctive Scripts` and `Archive Scripts` in it (Read the section named "[Archive and Active Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-and-active-scripts)" to understand the differences)
+Put the folders `Arctive Scripts` and `Archive Scripts` of your OS in the created folder (Read the section named "[Archive and Active Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-and-active-scripts)" to understand the differences)
 
 Add content to a 'Source - XXXXXX.txt' file depending of what type of content you want to download (Read the section named "[Channels, Playlists and Unique Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#channels-playlists-and-unique-scripts)" to understand the differences)
 
-Open a terminal in the folder of the script you want to use
+(Linux) Open a terminal in the folder of the script you want to use and run `$ ./[SCRIPT].sh`
 
-`$ ./[SCRIPT].sh`
+(Windows) Open CMD/Powershell in the folder of the script you want to use and run `[SCRIPT].bat` **or** Open a `.bat` file directly (Note: if you open a `.bat` file directly, the CMD/Powershell window will automatically close when the script is finished)
 
 Done
 
