@@ -43,7 +43,7 @@ Three different type of scripts are included depending of what you want to downl
 
 `Playlists.sh` : Made to download playlists made by a creator (naming scheme: `PlaylistName - Uploader/20191231 - Title/20191231 - Title.ext`)
 
-`Uniques.sh` : Made to download individual videos made by a creator (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`)
+`Unique.sh` : Made to download individual videos made by a creator (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`)
 
 
 # Details : 
