@@ -22,7 +22,7 @@ Add content to a 'Source - XXXXXX.txt' file depending of what type of content yo
 Done
 
 
-## Archive and Active Scripts?
+## Archive, Active Scripts?
 
 Downloading and archiving "live" content is complicated, especially because gigabytes of it will be created each day.
 
@@ -37,14 +37,15 @@ These dates will need to be incremented every year January 1 and the content cre
 
 ## Channels, Playlists and Unique Scripts?
 
-Three different type of scripts are included depending of what you want to download, the only thing changing is the naming scheme
+Four different type of scripts are included depending of what you want to download, the only thing changing is the naming scheme
 
 `Channels.sh` : Made to download everything made by a creator (naming scheme: `Uploader/Uploader - 20191231 - Title/Uploader - 20191231 - Title.ext`)
 
 `Playlists.sh` : Made to download playlists made by a creator (naming scheme: `PlaylistName - Uploader/20191231 - Title/20191231 - Title.ext`)
 
-`Unique.sh` : Made to download individual videos made by a creator (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`)
+`Unique.sh` : Made to download individual videos made by a creator (naming scheme: `Uploader - Title - 20191231.ext`)
 
+`Watch.sh` : Made to download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`)
 
 # Details : 
 
