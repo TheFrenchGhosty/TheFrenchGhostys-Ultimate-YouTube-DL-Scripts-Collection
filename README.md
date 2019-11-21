@@ -9,7 +9,7 @@ The ultimate collection of scripts for YouTube-DL
 
 Install [youtube-dl](https://github.com/ytdl-org/youtube-dl) and ffmpeg
 
-Create a folder where you want your videos downloaded in a drive where you have Gigabytes/Terabytes of space available (**Warning for Windows users**: try to keep a short path length like `C:\YouTube-DL` otherwise you will hit the Windows path length limit (255 characters) when downloading videos with long title, [See](https://github.com/ytdl-org/youtube-dl/issues/23154) for more details)
+Create a folder where you want your videos downloaded in a drive where you have Gigabytes/Terabytes of space available (**Warning for Windows users**: try to keep a short path length like `C:\YouTube-DL` otherwise you will hit the Windows path length limit (255 characters) when downloading videos with long title but even then it might not be enough so you might need to enable longer one, [See](https://github.com/ytdl-org/youtube-dl/issues/23154) for more details)
 
 Put the folders `Arctive Scripts` and `Archive Scripts` of your OS in the created folder (Read the section named "[Archive and Active Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-and-active-scripts)" to understand the differences)
 
