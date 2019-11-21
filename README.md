@@ -45,7 +45,7 @@ Three different type of scripts are included depending of what you want to downl
 
 `Playlists` : Made to download playlists made by a creator (naming scheme: `PlaylistName - Uploader/20191231 - Title/20191231 - Title.ext`)
 
-`Unique` : Made to download individual videos made by a creator (naming scheme: `Uploader - Title - 20191231.ext`)
+`Unique` : Made to download individual videos made by a creator (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`)
 
 
 # Details : 
