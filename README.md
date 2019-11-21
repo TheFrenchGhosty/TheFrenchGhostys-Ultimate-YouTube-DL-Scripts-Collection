@@ -32,7 +32,7 @@ Archive Scripts: Scripts that will download everything that was created before D
 
 Active Scripts: Scripts that will download everything that was created after January 1, 2019 (included).
 
-Watch Scripts: Scripts that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`).
+Watch Scripts: Scripts that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20191231 - Title.ext`).
 
 These dates will need to be incremented every year January 1 and the content created by the active scripts will need to be moved to the archive (including the `archive.log` that will need to be merged).
 
