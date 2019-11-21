@@ -22,7 +22,7 @@ Add content to a 'Source - XXXXXX.txt' file depending of what type of content yo
 Done
 
 
-## Archive, Active Scripts?
+## Archive, Active and Watch Scripts?
 
 Downloading and archiving "live" content is complicated, especially because gigabytes of it will be created each day.
 
@@ -32,20 +32,21 @@ Archive Scripts: Scripts that will download everything that was created before D
 
 Active Scripts: Scripts that will download everything that was created after January 1, 2019 (included).
 
+Watch Scripts: Scripts that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`).
+
 These dates will need to be incremented every year January 1 and the content created by the active scripts will need to be moved to the archive (including the `archive.log` that will need to be merged).
 
 
 ## Channels, Playlists and Unique Scripts?
 
-Four different type of scripts are included depending of what you want to download, the only thing changing is the naming scheme
+Three different type of scripts are included depending of what you want to download, the only thing changing is the naming scheme
 
-`Channels.sh` : Made to download everything made by a creator (naming scheme: `Uploader/Uploader - 20191231 - Title/Uploader - 20191231 - Title.ext`)
+`Channels` : Made to download everything made by a creator (naming scheme: `Uploader/Uploader - 20191231 - Title/Uploader - 20191231 - Title.ext`)
 
-`Playlists.sh` : Made to download playlists made by a creator (naming scheme: `PlaylistName - Uploader/20191231 - Title/20191231 - Title.ext`)
+`Playlists` : Made to download playlists made by a creator (naming scheme: `PlaylistName - Uploader/20191231 - Title/20191231 - Title.ext`)
 
-`Unique.sh` : Made to download individual videos made by a creator (naming scheme: `Uploader - Title - 20191231.ext`)
+`Unique` : Made to download individual videos made by a creator (naming scheme: `Uploader - Title - 20191231.ext`)
 
-`Watch.sh` : Made to download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`)
 
 # Details : 
 
