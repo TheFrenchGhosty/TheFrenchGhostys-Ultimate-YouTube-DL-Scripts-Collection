@@ -11,7 +11,7 @@ Install [youtube-dl](https://github.com/ytdl-org/youtube-dl) and ffmpeg
 
 Create a folder where you want your videos downloaded in a drive where you have Gigabytes/Terabytes of space available 
 
-(**Warning for Windows users**: Because Windows is still using a path length limit of 255 characters (seriously... it's 2019), you might have problems when downloading videos with long title (or even videos with short one), supposedly there is ways to disable this limit but during my testing I couldn't make it to work, ([See this youtube-dl issue](https://github.com/ytdl-org/youtube-dl/issues/23154) for more details)
+(**Warning for Windows users**: Because Windows is still using a path length limit of 260 characters (seriously... it's 2019), you might have problems when downloading videos with long title (or even videos with short one), supposedly there is ways to disable this limit but during my testing I couldn't make it to work, ([See this youtube-dl issue](https://github.com/ytdl-org/youtube-dl/issues/23154) for more details)
 
 Put the folders `Arctive Scripts` and `Archive Scripts` of your OS in the created folder (Read the section named "[Archive and Active Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-and-active-scripts)" to understand the differences)
 
