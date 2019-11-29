@@ -101,7 +101,7 @@ Three different type of scripts are included depending of what you want to downl
 
 # TODO:
 
-- Make the date flags change automatically for both Linux - OSX and Windows (Windows script will be rewritten for Powershell) (See #2 for the Linux implementation)
+- Make the date flags change automatically for both Linux - OSX and Windows (Windows script will be rewritten for Powershell) (See !1 for the Linux implementation)
 
 - Make scripts to automatically merge the Active content into the Archive (merging the `archive.log`) for both Linux - OSX and Windows
 
