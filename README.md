@@ -1,4 +1,4 @@
-# TheFrenchGhosty-s YouTube-DL Scripts
+# TheFrenchGhosty-s YouTube-DL Archivist Scripts
 
 **Require youtube-dl : https://github.com/ytdl-org/youtube-dl and ffmpeg**
 
