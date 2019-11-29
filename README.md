@@ -101,7 +101,7 @@ Three different type of scripts are included depending of what you want to downl
 
 # TODO (in this order):
 
-- Make audio-only scripts
+- Make audio-only scripts (See [Reddit](https://www.reddit.com/r/DataHoarder/comments/dwhvq6/youtubedl_archivist_scripts_the_ultimate/f7ktsj9/) for more details on the implementation I will use)
 
 - Make the date flags change automatically for both Linux - OSX and Windows (Windows script will be rewritten for Powershell) (See !1 for the Linux implementation)
 
