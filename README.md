@@ -99,7 +99,9 @@ Three different type of scripts are included depending of what you want to downl
 `--batch-file "Source - XXXXXX.txt"` : Tell youtube-dl to look for links in `Source - XXXXXX.txt`
 
 
-# TODO:
+# TODO (in this order):
+
+- Make audio-only scripts
 
 - Make the date flags change automatically for both Linux - OSX and Windows (Windows script will be rewritten for Powershell) (See !1 for the Linux implementation)
 
