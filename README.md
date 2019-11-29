@@ -97,3 +97,12 @@ Three different type of scripts are included depending of what you want to downl
 (Active Scripts) `--dateafter 20190101` : Tell youtube-dl to download everything that was created after January 1, 2019 (included).
 
 `--batch-file "Source - XXXXXX.txt"` : Tell youtube-dl to look for links in `Source - XXXXXX.txt`
+
+
+# TODO:
+
+- Make the date flags change automatically for both Linux - OSX and Windows (Windows script will be rewritten for Powershell) (See #2 for the Linux implementation)
+
+- Make scripts to automatically merge the Active content into the Archive (merging the `archive.log`) for both Linux - OSX and Windows
+
+
