@@ -2,7 +2,6 @@
 
 Associated Reddit /r/Datahoarder post: [Here](https://redd.it/dwhvq6)
 
-
 **Require [youtube-dl](https://youtube-dl.org/) and [ffmpeg](https://www.ffmpeg.org/)**
 
 The ultimate collection of scripts for YouTube-DL
@@ -104,9 +103,9 @@ Three different type of scripts are included depending of what you want to downl
 
 # TODO (in this order):
 
-- Make audio-only scripts (See [Reddit](https://www.reddit.com/r/DataHoarder/comments/dwhvq6/youtubedl_archivist_scripts_the_ultimate/f7ktsj9/) for more details on the implementation I will use)
+- Sponsorblock integration (waiting on [MPV_Sponsorblock](https://github.com/po5/mpv_sponsorblock/issues/5))
 
-- Make the date flags change automatically for both Linux - OSX and Windows (Windows script will be rewritten for Powershell) (See !1 for the Linux implementation)
+- Make audio-only scripts (See [Reddit](https://www.reddit.com/r/DataHoarder/comments/dwhvq6/youtubedl_archivist_scripts_the_ultimate/f7ktsj9/) for more details on the implementation I will use)
 
 - Make scripts to automatically merge the Active content into the Archive (merging the `archive.log`) for both Linux - OSX and Windows
 
