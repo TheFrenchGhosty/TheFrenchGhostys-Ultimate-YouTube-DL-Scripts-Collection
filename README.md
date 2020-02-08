@@ -105,6 +105,8 @@ Three different type of scripts are included depending of what you want to downl
 
 - Sponsorblock integration (waiting on [MPV_Sponsorblock](https://github.com/po5/mpv_sponsorblock/issues/5))
 
+- Update the ```--format``` to properly support 1440p-2160p-4320p (right now 1080p will be chosen instead if it's the only source for ```av01``` or ```vp9.2```
+
 - Make audio-only scripts (See [Reddit](https://www.reddit.com/r/DataHoarder/comments/dwhvq6/youtubedl_archivist_scripts_the_ultimate/f7ktsj9/) for more details on the implementation I will use)
 
 - Make scripts to automatically merge the Active content into the Archive (merging the `archive.log`) for both Linux - OSX and Windows
