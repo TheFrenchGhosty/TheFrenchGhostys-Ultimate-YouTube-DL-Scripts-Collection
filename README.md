@@ -1,13 +1,16 @@
-# TheFrenchGhosty-s YouTube-DL Archivist Scripts
+# TheFrenchGhosty's YouTube-DL Archivist Scripts
 
-**Require youtube-dl : https://github.com/ytdl-org/youtube-dl and ffmpeg**
+Associated Reddit /r/Datahoarder post: [Here](https://redd.it/dwhvq6)
+
+
+**Require [youtube-dl](https://youtube-dl.org/) and [ffmpeg](https://www.ffmpeg.org/)**
 
 The ultimate collection of scripts for YouTube-DL
 
 
 ## Usage :
 
-Install [youtube-dl](https://github.com/ytdl-org/youtube-dl) and ffmpeg
+Install [youtube-dl](https://youtube-dl.org/) and [ffmpeg](https://www.ffmpeg.org/)
 
 Create a folder where you want your videos downloaded in a drive where you have Gigabytes/Terabytes of space available 
 
