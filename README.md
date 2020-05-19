@@ -15,7 +15,7 @@ Create a folder where you want your videos downloaded in a drive where you have 
 
 (**Warning for Windows users**: Because Windows is still using a path length limit of 260 characters (seriously... it's 2019), you might have problems when downloading videos with long title (or even videos with short one), supposedly there is ways to disable this limit but during my testing I couldn't make it to work, ([See this youtube-dl issue](https://github.com/ytdl-org/youtube-dl/issues/23154) for more details)
 
-Put the folders `Arctive Scripts` and `Archive Scripts` of your OS in the created folder (Read the section named "[Archive and Active Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-and-active-scripts)" to understand the differences)
+Put the folders `Active Scripts` and `Archive Scripts` of your OS in the created folder (Read the section named "[Archive and Active Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-and-active-scripts)" to understand the differences)
 
 Add content to a 'Source - XXXXXX.txt' file depending of what type of content you want to download (Read the section named "[Channels, Playlists and Unique Scripts?](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#channels-playlists-and-unique-scripts)" to understand the differences)
 
@@ -54,7 +54,7 @@ Three different type of scripts are included depending of what you want to downl
 
 # Details : 
 
-`--format "(bestvideo[vcodec^=av01][height>=1080][fps>30]/bestvideo[vcodec=vp9.2][height>=1080][fps>30]/bestvideo[vcodec=vp9][height>=1080][fps>30]/bestvideo[vcodec^=av01][height>=1080]/bestvideo[vcodec=vp9.2][height>=1080]/bestvideo[vcodec=vp9][height>=1080]/bestvideo[height>=1080]/bestvideo[vcodec^=av01][height>=720][fps>30]/bestvideo[vcodec=vp9.2][height>=720][fps>30]/bestvideo[vcodec=vp9][height>=720][fps>30]/bestvideo[vcodec^=av01][height>=720]/bestvideo[vcodec=vp9.2][height>=720]/bestvideo[vcodec=vp9][height>=720]/bestvideo[height>=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best"` : Courtesy of [Veloldo](https://redd.it/c6fh4x), tell youtube-dl to download the best quality available prioritizing the most compressed/recent codecs
+`--format "(bestvideo[vcodec^=av01][height>=4320][fps>30]/bestvideo[vcodec^=vp9.2][height>=4320]/bestvideo[vcodec^=vp9][height>=4320]/bestvideo[vcodec^=av01][height>=2160][fps>30]/bestvideo[vcodec^=vp9.2][height>=2160]/bestvideo[vcodec^=vp9][height>=2160][fps>30]/bestvideo[vcodec^=av01][height>=1440][fps>30]/bestvideo[vcodec^=vp9.2][height>=1440]/bestvideo[vcodec^=vp9][height>=1440][fps>30]/bestvideo[vcodec^=av01][height>=1080][fps>30]/bestvideo[vcodec=vp9.2][height>=1080][fps>30]/bestvideo[vcodec=vp9][height>=1080][fps>30]/bestvideo[vcodec^=av01][height>=1080]/bestvideo[vcodec=vp9.2][height>=1080]/bestvideo[vcodec=vp9][height>=1080]/bestvideo[height>=1080]/bestvideo[vcodec^=av01][height>=720][fps>30]/bestvideo[vcodec=vp9.2][height>=720][fps>30]/bestvideo[vcodec=vp9][height>=720][fps>30]/bestvideo[vcodec^=av01][height>=720]/bestvideo[vcodec=vp9.2][height>=720]/bestvideo[vcodec=vp9][height>=720]/bestvideo[height>=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best"` : Courtesy of [Veloldo](https://redd.it/c6fh4x), tell youtube-dl to download the best quality available prioritizing the most compressed/recent codecs
 
 `--verbose` : Tell youtube-dl to print various debugging information
 
@@ -104,8 +104,6 @@ Three different type of scripts are included depending of what you want to downl
 # TODO (in this order):
 
 - Sponsorblock integration (waiting on [MPV_Sponsorblock](https://github.com/po5/mpv_sponsorblock/issues/5))
-
-- Update the ```--format``` to properly support 1440p-2160p-4320p (right now 1080p will be chosen instead if it's the only source for ```av01``` or ```vp9.2```
 
 - YouTube "429 - Too Many Requests" possible mitigation
 
