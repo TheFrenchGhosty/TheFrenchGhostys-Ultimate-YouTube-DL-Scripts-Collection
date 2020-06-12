@@ -35,7 +35,7 @@ Sponsorblock is fully useable with the videos downloaded by this script thanks t
 To use it you just have to set: `local_pattern = " %[([%a%d%-_]+)].[mw][kpe][v4b]m?$"` in `sponsorblock.lua`. Note that this will send/leak to the Sponsorblock server everything that use this naming including "[CRCs in anime-style naming](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/issues/1#issuecomment-633000802)".
 
 
-## Archive, Active, Watch, Watch on Mobile Devices and Audio Only Script Scripts?
+## Archive, Active, Watch, Watch on Mobile Devices and Audio Only Scripts?
 
 Downloading and archiving "live" content is complicated, especially because gigabytes of it will be created each day.
 
