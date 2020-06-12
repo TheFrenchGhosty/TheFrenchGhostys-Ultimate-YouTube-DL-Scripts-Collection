@@ -28,6 +28,13 @@ Add content to a 'Source - XXXXXX.txt' file depending of what type of content yo
 Done.
 
 
+## Sponsorblock implementation
+
+Sponsorblock is fully useable with the videos downloaded by this script thanks to [MPV_Sponsorblock](https://github.com/po5/mpv_sponsorblock) by [po5 / Eva](https://github.com/po5) since this [issue](https://github.com/po5/mpv_sponsorblock/issues/5).
+
+To use it you just have to set: `local_pattern = " %[([%a%d%-_]+)].[mw][kpe][v4b]m?$"` in `sponsorblock.lua`
+
+
 ## Archive, Active and Watch Scripts?
 
 Downloading and archiving "live" content is complicated, especially because gigabytes of it will be created each day.
@@ -90,11 +97,11 @@ Three different type of scripts are included depending of what you want to downl
 
 `--embed-subs` : Tell youtube-dl to embed subtitles in the video.
 
-(Channels Scripts) `--output "%(uploader)s/%(uploader)s - %(upload_date)s - %(title)s/%(uploader)s - %(upload_date)s - %(title)s.%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `Uploader/Uploader - 20191231 - Title/Uploader - 20191231 - Title.ext`.
+(Channels Scripts) `--output "%(uploader)s/%(uploader)s - %(upload_date)s - %(title)s/%(uploader)s - %(upload_date)s - %(title)s [%(id)s].%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `Uploader/Uploader - 20191231 - Title/Uploader - 20191231 - Title [VIDEOID].ext`.
 
-(Playlists Scripts) `--output "%(playlist)s (%(uploader)s)/%(upload_date)s - %(title)s/%(upload_date)s - %(title)s.%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `PlaylistName - Uploader/20191231 - Title/20191231 - Title.ext`.
+(Playlists Scripts) `--output "%(playlist)s (%(uploader)s)/%(upload_date)s - %(title)s/%(upload_date)s - %(title)s [%(id)s].%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `PlaylistName - Uploader/20191231 - Title/20191231 - Title [VIDEOID].ext`.
 
-(Unique Scripts) `--output "%(title)s - %(uploader)s - %(upload_date)s/%(title)s - %(uploader)s - %(upload_date)s.%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `Title - Uploader - 20191231/Title - Uploader - 20191231.ext`.
+(Unique Scripts) `--output "%(title)s - %(uploader)s - %(upload_date)s/%(title)s - %(uploader)s - %(upload_date)s [%(id)s].%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `Title - Uploader - 20191231/Title - Uploader - 20191231 [VIDEOID].ext`.
 
 `--merge-output-format "mkv"` : Tell youtube-dl to merge the video and audio that were downloaded separately in a `.mkv` file.
 
