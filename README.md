@@ -17,7 +17,7 @@ Create a folder where you want your videos downloaded in a drive where you have 
 
 **Warning for Windows users**: Because Windows is using a path length limit of 260 characters, you might have problems when downloading videos with long title (or even videos with short one if your path is long), supposedly there is ways to disable this limit but during my testing I couldn't make it to work. Using `C:\YouTube-DL\` *should* work.
 
-Put the folders `Active Scripts`, `Archive Scripts` and `Watch Script` of your OS in the created folder (Read the section named "[Archive, Active and Watch Scripts?](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-active-and-watch-scripts)" to understand the differences).
+Put the folders `Active Scripts`, `Archive Scripts` and `Watch Script` of your OS in the created folder (Read the section named "[Archive, Active, Watch and Watch on Mobile Devices Scripts?](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-active-watch-and-watch-on-mobile-devices-scripts)" to understand the differences).
 
 Add content to a 'Source - XXXXXX.txt' file depending of what type of content you want to download (Read the section named "[Channels, Playlists and Unique Scripts?](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#channels-playlists-and-unique-scripts)" to understand the differences).
 
@@ -35,7 +35,7 @@ Sponsorblock is fully useable with the videos downloaded by this script thanks t
 To use it you just have to set: `local_pattern = " %[([%a%d%-_]+)].[mw][kpe][v4b]m?$"` in `sponsorblock.lua`. Note that this will send/leak to the Sponsorblock server everything that use this naming including "[CRCs in anime-style naming](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/issues/1#issuecomment-633000802)".
 
 
-## Archive, Active and Watch Scripts?
+## Archive, Active, Watch and Watch on Mobile Devices Scripts?
 
 Downloading and archiving "live" content is complicated, especially because gigabytes of it will be created each day.
 
@@ -45,7 +45,9 @@ Archive Scripts: Scripts that will download everything that was created before D
 
 Active Scripts: Scripts that will download everything that was created after January 1, 2020 (included).
 
-Watch Scripts: Scripts that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title.ext`).
+Watch Script: Script that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title.ext`).
+
+Watch on Mobile Devices Script: Script that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched, in old video and audio format that are support by every mobile devices (naming scheme: `Uploader - 20201231 - Title.ext`).
 
 These dates will need to be incremented every year January 1 and the content created by the active scripts will need to be moved to the archive (including the `archive.log` that will need to be merged).
 
