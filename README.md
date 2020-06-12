@@ -47,7 +47,7 @@ Active Scripts: Scripts that will download everything that was created after Jan
 
 Watch Script: Script that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title.ext`).
 
-Watch on Mobile Devices Script: Script that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched, in old video and audio format that are support by every mobile devices (naming scheme: `Uploader - 20201231 - Title.ext`).
+Watch on Mobile Devices Script: Script that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched, in old video and audio format that are support by every mobile devices. (naming scheme: `Uploader - 20201231 - Title.ext`).
 
 Audio Only Script: Script that will only download audio (or that will extract the audio from videos that contain it) in the best possible quality.
 
@@ -68,6 +68,10 @@ Three different type of scripts are included depending of what you want to downl
 # Details :
 
 `--format "(bestvideo[vcodec=av01][height>=4320][fps>30]/bestvideo[vcodec=vp9.2][height>=4320][fps>30]/bestvideo[vcodec=vp9][height>=4320][fps>30]/bestvideo[vcodec=av01][height>=4320]/bestvideo[vcodec=vp9.2][height>=4320]/bestvideo[vcodec=vp9][height>=4320]/bestvideo[height>=4320]/bestvideo[vcodec=av01][height>=2880][fps>30]/bestvideo[vcodec=vp9.2][height>=2880][fps>30]/bestvideo[vcodec=vp9][height>=2880][fps>30]/bestvideo[vcodec=av01][height>=2880]/bestvideo[vcodec=vp9.2][height>=2880]/bestvideo[vcodec=vp9][height>=2880]/bestvideo[height>=2880]/bestvideo[vcodec=av01][height>=2160][fps>30]/bestvideo[vcodec=vp9.2][height>=2160][fps>30]/bestvideo[vcodec=vp9][height>=2160][fps>30]/bestvideo[vcodec=av01][height>=2160]/bestvideo[vcodec=vp9.2][height>=2160]/bestvideo[vcodec=vp9][height>=2160]/bestvideo[height>=2160]/bestvideo[vcodec=av01][height>=1440][fps>30]/bestvideo[vcodec=vp9.2][height>=1440][fps>30]/bestvideo[vcodec=vp9][height>=1440][fps>30]/bestvideo[vcodec=av01][height>=1440]/bestvideo[vcodec=vp9.2][height>=1440]/bestvideo[vcodec=vp9][height>=1440]/bestvideo[height>=1440]/bestvideo[vcodec=av01][height>=1080][fps>30]/bestvideo[vcodec=vp9.2][height>=1080][fps>30]/bestvideo[vcodec=vp9][height>=1080][fps>30]/bestvideo[vcodec=av01][height>=1080]/bestvideo[vcodec=vp9.2][height>=1080]/bestvideo[vcodec=vp9][height>=1080]/bestvideo[height>=1080]/bestvideo[vcodec=av01][height>=720][fps>30]/bestvideo[vcodec=vp9.2][height>=720][fps>30]/bestvideo[vcodec=vp9][height>=720][fps>30]/bestvideo[vcodec=av01][height>=720]/bestvideo[vcodec=vp9.2][height>=720]/bestvideo[vcodec=vp9][height>=720]/bestvideo[height>=720]/bestvideo)+(bestaudio[acodec=opus]/bestaudio)/best"` : Tell youtube-dl to download the best quality available prioritizing the most compressed/recent codecs. (Original idea by [Veloldo](https://redd.it/c6fh4x), partial implementation of 1440p and 4320p by [miko](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/commit/3763eb7a2291754cfd2bccfab65449ba9d758887)([Merge Request on Gitlab](https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/-/merge_requests/2)).
+
+(Watch on Mobile Script) `--format "(bestvideo[vcodec=avc1][height>=1080][fps>30]/bestvideo[vcodec=avc1][height>=1080]/bestvideo[vcodec=avc1][height>=720][fps>30]/bestvideo[vcodec=avc1][height>=720]/bestvideo)+(140/bestaudio)/best"` : Tell youtube-dl to download old video and audio format that are support by every mobile devices.
+
+(Audio Only Scripts) `--format "(bestaudio[acodec=opus]/bestaudio)/best"` : Tell youtube-dl to download best audio quality available prioritizing the most compressed/recent codecs.
 
 `--verbose` : Tell youtube-dl to print various debugging information.
 
@@ -100,6 +104,8 @@ Three different type of scripts are included depending of what you want to downl
 `--sub-format "srt"` : Tell youtube-dl to prioritize `.srt` subtitles.
 
 `--embed-subs` : Tell youtube-dl to embed subtitles in the video.
+
+(Audio Only Scripts) `--extract-audio` : Extract audio if it's included in a video file, otherwise don't do anything.
 
 (Channels Scripts) `--output "%(uploader)s/%(uploader)s - %(upload_date)s - %(title)s/%(uploader)s - %(upload_date)s - %(title)s [%(id)s].%(ext)s"` : Tell youtube-dl to download the videos in folders and subfolders, using the naming scheme `Uploader/Uploader - 20191231 - Title/Uploader - 20191231 - Title [VIDEOID].ext`.
 
