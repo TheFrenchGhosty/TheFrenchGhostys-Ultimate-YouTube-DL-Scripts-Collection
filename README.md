@@ -30,7 +30,7 @@ Done.
 
 ## Sponsorblock implementation
 
-Sponsorblock is fully useable with the videos downloaded by this script thanks to [MPV_Sponsorblock](https://github.com/po5/mpv_sponsorblock) by [po5 / Eva](https://github.com/po5) since this [issue](https://github.com/po5/mpv_sponsorblock/issues/5).
+Sponsorblock is fully usable with the videos downloaded by this script thanks to [MPV_Sponsorblock](https://github.com/po5/mpv_sponsorblock) by [po5 / Eva](https://github.com/po5) since this [issue](https://github.com/po5/mpv_sponsorblock/issues/5).
 
 To use it you just have to set: `local_pattern = " %[([%a%d%-_]+)].[mw][kpe][v4b]m?$"` in `sponsorblock.lua`. Note that this will send/leak to the Sponsorblock server everything that use this naming including "[CRCs in anime-style naming](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/issues/1#issuecomment-633000802)".
 
@@ -45,9 +45,9 @@ Archive Scripts: Scripts that will download everything that was created before D
 
 Active Scripts: Scripts that will download everything that was created after January 1, 2020 (included).
 
-Watch Script: Script that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title.ext`).
+Watch Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title.ext`).
 
-Watch on Mobile Devices Script: Script that wil download individual videos made by a creator that are not meant to be archived but deleted after being watched, in old video and audio format that are support by every mobile devices. (naming scheme: `Uploader - 20201231 - Title.ext`).
+Watch on Mobile Devices Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched, in old video and audio format that are support by every mobile devices. (naming scheme: `Uploader - 20201231 - Title.ext`).
 
 Audio Only Script: Script that will only download audio (or that will extract the audio from videos that contain it) in the best possible quality.
 
