@@ -1,6 +1,6 @@
 # TheFrenchGhosty's YouTube-DL Archivist Scripts
 
-Associated Reddit /r/Datahoarder post: [Here](https://redd.it/dwhvq6)
+Associated Reddit /r/Datahoarder post: [Here for 1.0.0](https://redd.it/dwhvq6) and [Here for 2.0.0](https://redd.it/h7q4nz).
 
 **Require [youtube-dl](https://youtube-dl.org/) and [ffmpeg](https://www.ffmpeg.org/)**
 
