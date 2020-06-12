@@ -45,9 +45,9 @@ Archive Scripts: Scripts that will download everything that was created before D
 
 Active Scripts: Scripts that will download everything that was created after January 1, 2020 (included).
 
-Watch Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title.ext`).
+Watch Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`).
 
-Watch on Mobile Devices Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched, in old video and audio format that are support by every mobile devices. (naming scheme: `Uploader - 20201231 - Title.ext`).
+Watch on Mobile Devices Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched, in old video and audio format that are support by every mobile devices. (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`).
 
 Audio Only Script: Script that will only download audio (or that will extract the audio from videos that contain it) in the best possible quality.
 
@@ -58,11 +58,11 @@ These dates will need to be incremented every year January 1 and the content cre
 
 Three different type of scripts are included depending of what you want to download, the only thing changing is the naming scheme.
 
-`Channels` : Made to download everything made by creators (naming scheme: `Uploader/Uploader - 20201231 - Title/Uploader - 20201231 - Title.ext`).
+`Channels` : Made to download everything made by creators (naming scheme: `Uploader/Uploader - 20201231 - Title/Uploader - 20201231 - Title [VIDEOID].ext`).
 
-`Playlists` : Made to download playlists made by creators (naming scheme: `PlaylistName - Uploader/20201231 - Title/20201231 - Title.ext`).
+`Playlists` : Made to download playlists made by creators (naming scheme: `PlaylistName - Uploader/20201231 - Title/20201231 - Title [VIDEOID].ext`).
 
-`Unique` : Made to download individual videos made by creators (naming scheme: `Title - Uploader - 20201231/Title - Uploader - 20191231.ext`).
+`Unique` : Made to download individual videos made by creators (naming scheme: `Title - Uploader - 20201231/Title - Uploader - 20191231 [VIDEOID].ext`).
 
 
 # Details :
