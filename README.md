@@ -101,14 +101,3 @@ Three different type of scripts are included depending of what you want to downl
 (Archive Scripts) `--dateafter "$(date +%Y)"0101` (Linux) `--dateafter "$(get-date -Format yyyy)0101"` (Windows) : Tell youtube-dl to download everything that was created after January 1 (included), of the current year.
 
 `--batch-file "Source - XXXXXX.txt"` : Tell youtube-dl to look for links in `Source - XXXXXX.txt`.
-
-
-# TODO (in this order):
-
-- Sponsorblock integration (see on [MPV_Sponsorblock](https://github.com/po5/mpv_sponsorblock/issues/5) and https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/issues/1.
-
-- YouTube "429 - Too Many Requests" possible mitigation (See https://old.reddit.com/r/DataHoarder/comments/cr8t0k/can_you_answer_a_few_questions_i_have_about/ex3megb/).
-
-- Make audio-only scripts (See [Reddit](https://www.reddit.com/r/DataHoarder/comments/dwhvq6/youtubedl_archivist_scripts_the_ultimate/f7ktsj9/) for more details on the implementation I will use).
-
-- Make scripts to automatically merge the Active content into the Archive (merging the `archive.log`) for both Linux - OSX and Windows.
