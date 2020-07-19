@@ -17,9 +17,9 @@ Create a folder where you want your videos downloaded in a drive where you have 
 
 **Warning for Windows users**: Because Windows is using a path length limit of 260 characters, you might have problems when downloading videos with long title (or even videos with short one if your path is long), supposedly there is ways to disable this limit but during my testing I couldn't make it to work. Using `C:\YouTube-DL\` *should* work.
 
-Put the folders `Active Scripts`, `Archive Scripts` and `Watch Script` of your OS in the created folder (Read the section named "[Archive, Active, Watch, Watch on Mobile Devices and Audio Only Scripts?](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#archive-active-watch-watch-on-mobile-devices-and-audio-only-scripts)" to understand the differences).
+Put the folders `Active Scripts`, `Archive Scripts` and `Watch Script` of your OS in the created folder (Read the section named "[Archive, Active, Watch, Watch on Mobile Devices and Audio Only Scripts?](#archive-active-watch-watch-on-mobile-devices-and-audio-only-scripts)" to understand the differences).
 
-Add content to a 'Source - XXXXXX.txt' file depending of what type of content you want to download (Read the section named "[Channels, Playlists and Unique Scripts?](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts#channels-playlists-and-unique-scripts)" to understand the differences).
+Add content to a 'Source - XXXXXX.txt' file depending of what type of content you want to download (Read the section named "[Channels, Playlists and Unique Scripts?](#channels-playlists-and-unique-scripts)" to understand the differences).
 
 (Linux) Open a terminal in the folder of the script you want to use and run `./[SCRIPT].sh`.
 
