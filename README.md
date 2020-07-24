@@ -2,7 +2,7 @@
 
 Associated Reddit /r/Datahoarder post: [Here for 1.0.0](https://redd.it/dwhvq6) and [Here for 2.0.0](https://redd.it/h7q4nz).
 
-**Require [youtube-dl](https://youtube-dl.org/) and [ffmpeg](https://www.ffmpeg.org/)**
+Install [youtube-dl](https://youtube-dl.org/) and [ffmpeg](https://www.ffmpeg.org/) (Windows users **must** use [Chocolatey](https://chocolatey.org/) *or* **must** know how to properly install both tools. They both need to be added to your path, Chocolatey is the only tested installation method of youtube-dl/ffmpeg for my scripts).
 
 The ultimate collection of scripts for YouTube-DL.
 
