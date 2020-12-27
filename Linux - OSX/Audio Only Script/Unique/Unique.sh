@@ -1,8 +1,8 @@
 #!/bin/sh
 #
 # TheFrenchGhostys YouTube-DL Archivist Scripts: The ultimate collection of scripts for YouTube-DL
-# https://gitlab.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts
-# https://gitlab.com/TheFrenchGhosty
+# https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts
+# https://github.com/TheFrenchGhosty
 #
 #
 
