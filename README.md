@@ -67,11 +67,11 @@ Three different type of scripts are included depending of what you want to downl
 `Unique` : Made to download individual videos made by creators (naming scheme: `Title - Uploader - 20201231/Title - Uploader - 20191231 [VIDEOID].ext`).
 
 
-## Videos that are only availible in a certain region?
+## Region-restricted videos?
 
 --ignore-errors and --download-archive archive.log will silently skip such videos.
 
-Switch between US and Germany, and france if you follow some french content, or in general. (If you follow a specific country content, switch to that country)
+Using a VPN, switch between US and Germany. Or in general: if you follow a specific country's content, switch to that country (e.g. switch to France if you follow French content)
 
 
 # Details :
