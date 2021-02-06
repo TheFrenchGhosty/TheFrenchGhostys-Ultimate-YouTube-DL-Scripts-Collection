@@ -47,7 +47,7 @@ Archive Scripts: Scripts that will download everything that was created before D
 
 Active Scripts: Scripts that will download everything that was created after January 1 of the current year (included). For example, if the current date is 2021-02-02, everything created between and during the dates 2021-01-01 and 2021-02-02 will be downloaded.
 
-Watch Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`). 
+Watch Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`).
 
 Watch on Mobile Devices Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched, in old video and audio format that are support by every mobile devices. (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`).
 
@@ -74,6 +74,7 @@ Three different type of scripts are included depending of what you want to downl
 `--ignore-errors` and `--download-archive archive.log` will silently skip such videos.
 
 Using a VPN, switch between US and Germany, and if you follow a specific country's content, also switch to that country (e.g. switch to France if you follow French content).
+
 
 # Details :
 
