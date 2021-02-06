@@ -43,9 +43,9 @@ Downloading and archiving "live" content is complicated, especially because giga
 
 Considering that I chose to separate the content:
 
-Archive Scripts: Scripts that will download everything that was created before December 31 of the previous year, inclusive. For example, if the current date is any day between 2021-01-01 and 2021-12-31, everything created up to and including 2020-12-31 will be downloaded.
+Archive Scripts: Scripts that will download everything that was created before December 31 of the previous year (included). For example, if the current date is any day between 2021-01-01 and 2021-12-31, everything created up to and including 2020-12-31 will be downloaded. Because YouTube takes time to transcode videos (usually 1 week, maximum 1 month), you may want to avoid running the Archive Scripts too soon into the new year.
 
-Active Scripts: Scripts that will download everything that was created after January 1 of the current year, inclusive. For example, if the current date is 2021-02-02, everything created between and during the dates 2021-01-01 and 2021-02-02 will be downloaded.
+Active Scripts: Scripts that will download everything that was created after January 1 of the current year (included). For example, if the current date is 2021-02-02, everything created between and during the dates 2021-01-01 and 2021-02-02 will be downloaded.
 
 Watch Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`). 
 
@@ -71,8 +71,9 @@ Three different type of scripts are included depending of what you want to downl
 
 ## Region-restricted videos?
 
-Using a VPN, switch between US and Germany, and if you follow a specific country's content, also switch to that country (e.g. switch to France if you follow French content).
+`--ignore-errors` and `--download-archive archive.log` will silently skip such videos.
 
+Using a VPN, switch between US and Germany, and if you follow a specific country's content, also switch to that country (e.g. switch to France if you follow French content).
 
 # Details :
 
