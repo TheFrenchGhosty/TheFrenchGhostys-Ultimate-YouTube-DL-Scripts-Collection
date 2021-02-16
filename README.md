@@ -2,12 +2,12 @@
 
 The ultimate collection of scripts for YouTube-DL. 
 
-Associated Reddit /r/Datahoarder post: [Here for 1.0.0](https://redd.it/dwhvq6) and [Here for 2.0.0](https://redd.it/h7q4nz).
+Associated Reddit /r/Datahoarder post: [Here for 2.0.0](https://redd.it/h7q4nz) and [Here for 1.0.0](https://redd.it/dwhvq6).
 
 ## Features:
 
 - [Copylefted libre software](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts) (AGPLv3+ licensed)
-- Download content in the best possible quality
+- Download content in the best possible quality, better than every other software, period.
 - Download all kind of content: channels, playlists and individual videos
 - Download audio only content, in the best possible quality
 - Content separated in two to be easier to archive
@@ -16,7 +16,7 @@ Associated Reddit /r/Datahoarder post: [Here for 1.0.0](https://redd.it/dwhvq6) 
 - Easily expandable for users familiar with yt-dlp / youtube-dl
 - [SponsorBlock](https://sponsor.ajay.app/) integration using [mpv_sponsorblock](https://github.com/po5/mpv_sponsorblock) by @po5
 - No Contributor License Agreement
-- No Code of Conduct.
+- No Code of Conduct
 
 ---
 
@@ -30,7 +30,7 @@ Monero (XMR): [44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEP
 
 ---
 
-## Installation (Linux) :
+## Installation (Linux):
 
 Install [yt-dlp](https://github.com/pukkandan/yt-dlp) and [ffmpeg](https://www.ffmpeg.org/) (optionnally, install [atomicparsley](https://github.com/wez/atomicparsley)), it's required for embedding thumbnails into m4a files).
 
