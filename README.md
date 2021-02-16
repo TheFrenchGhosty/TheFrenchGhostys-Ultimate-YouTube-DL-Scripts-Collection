@@ -2,7 +2,7 @@
 
 Associated Reddit /r/Datahoarder post: [Here for 1.0.0](https://redd.it/dwhvq6) and [Here for 2.0.0](https://redd.it/h7q4nz).
 
-**Require [youtube-dlc](https://github.com/blackjack4494/yt-dlc) and [ffmpeg](https://www.ffmpeg.org/)**
+**Require [yt-dlp](https://github.com/pukkandan/yt-dlp) and [ffmpeg](https://www.ffmpeg.org/) (optionnally, requires [atomicparsley](https://github.com/wez/atomicparsley))**
 
 The ultimate collection of scripts for YouTube-DL.
 
@@ -11,7 +11,7 @@ The ultimate collection of scripts for YouTube-DL.
 
 Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/releases) and follow the included ReadMe, do not use the `master` branch unless you are ready to redownload EVERYTHING.
 
-Install [yt-dlp](https://github.com/pukkandan/yt-dlp) and [ffmpeg](https://www.ffmpeg.org/) (optionnally, install [atomicparsley](https://github.com/wez/atomicparsley), it's required for embedding thumbnails into m4a files).
+Install [yt-dlp](https://github.com/pukkandan/yt-dlp) and [ffmpeg](https://www.ffmpeg.org/) (optionnally, install [atomicparsley](https://github.com/wez/atomicparsley)), it's required for embedding thumbnails into m4a files).
 
 Note: youtube-dl *should* work but isn't officially supported.
 
