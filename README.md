@@ -1,6 +1,24 @@
 # TheFrenchGhosty's YouTube-DL Archivist Scripts
 
+The ultimate collection of scripts for YouTube-DL. 
+
 Associated Reddit /r/Datahoarder post: [Here for 1.0.0](https://redd.it/dwhvq6) and [Here for 2.0.0](https://redd.it/h7q4nz).
+
+## Features:
+
+- [Copylefted libre software](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts) (AGPLv3+ licensed)
+- Download content in the best possible quality
+- Download all kind of content: channels, playlists and individual videos
+- Download audio only content, in the best possible quality
+- Content separated in two to be easier to archive
+- Dedicated scripts to download videos destined to be watched and deleted on a PC
+- Dedicated scripts to download videos destined to be watched on deleted on a Mobile device
+- Easily expandable for users familiar with yt-dlp / youtube-dl
+- [SponsorBlock](https://sponsor.ajay.app/) integration using [mpv_sponsorblock](https://github.com/po5/mpv_sponsorblock) by @po5
+- No Contributor License Agreement
+- No Code of Conduct.
+
+---
 
 **Require [yt-dlp](https://github.com/pukkandan/yt-dlp) and [ffmpeg](https://www.ffmpeg.org/) (optionnally, requires [atomicparsley](https://github.com/wez/atomicparsley))**
 
