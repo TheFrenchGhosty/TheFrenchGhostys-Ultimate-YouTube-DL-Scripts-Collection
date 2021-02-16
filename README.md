@@ -11,13 +11,13 @@ The ultimate collection of scripts for YouTube-DL.
 
 Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/releases), do not use the `master` branch unless you are ready to redownload EVERYTHING.
 
-Install [youtube-dlc](https://github.com/blackjack4494/yt-dlc) and [ffmpeg](https://www.ffmpeg.org/) (Windows users **must** use [Chocolatey](https://chocolatey.org/) *or* **must** know how to properly install both tools. They both need to be added to your path, Chocolatey is the only tested installation method of youtube-dlc/ffmpeg for my scripts).
+Install [youtube-dlc](https://github.com/blackjack4494/yt-dlc) and [ffmpeg](https://www.ffmpeg.org/).
 
 Note: youtube-dl *should* work but isn't officially supported.
 
-Create a folder where you want your videos downloaded in a drive where you have enough space available.
+**Windows**: Because Windows is using a path length limit of 260 characters, and because of the work required (and the fact that the Windows version was untested when it existed), Windows users needs to use the scripts in WSL. WSL bypass the path length limit so every video will get downloaded, however when playing it with a native Windows software the path length issue might be an issue, I can't do anything about that.
 
-**Warning for Windows users**: Because Windows is using a path length limit of 260 characters, you might have problems when downloading videos with long title (or even videos with short one if your path is long), supposedly there is ways to disable this limit but during my testing I couldn't make it to work. Using `C:\YouTube-DL\` *should* work.
+Create a folder where you want your videos downloaded in a drive where you have enough space available.
 
 Put the folders `Active Scripts`, `Archive Scripts` and `Watch Script` of your OS in the created folder (Read the section named "[Archive, Active, Watch, Watch on Mobile Devices and Audio Only Scripts?](#archive-active-watch-watch-on-mobile-devices-and-audio-only-scripts)" to understand the differences).
 
