@@ -18,6 +18,14 @@ Associated Reddit /r/Datahoarder post: [Here for 1.0.0](https://redd.it/dwhvq6) 
 - No Contributor License Agreement
 - No Code of Conduct.
 
+## Donate:
+
+Liberapay: https://liberapay.com/TheFrenchGhosty
+
+Bitcoin (BTC): [bc1qjpal63yc94jw03pnhu3vyfqv7djxsr0lmwe5jk](bitcoin:bc1qjpal63yc94jw03pnhu3vyfqv7djxsr0lmwe5jk)
+
+Monero (XMR): [44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEPm1Sif1Pqdbw5UoFCvNLNp6CET277J6](monero:44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEPm1Sif1Pqdbw5UoFCvNLNp6CET277J6)
+
 ---
 
 **Require [yt-dlp](https://github.com/pukkandan/yt-dlp) and [ffmpeg](https://www.ffmpeg.org/) (optionnally, requires [atomicparsley](https://github.com/wez/atomicparsley))**
