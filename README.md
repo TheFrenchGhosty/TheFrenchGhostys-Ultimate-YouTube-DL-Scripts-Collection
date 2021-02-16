@@ -9,9 +9,9 @@ The ultimate collection of scripts for YouTube-DL.
 
 ## Usage :
 
-Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/releases), do not use the `master` branch unless you are ready to redownload EVERYTHING.
+Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/releases) and follow the included ReadMe, do not use the `master` branch unless you are ready to redownload EVERYTHING.
 
-Install [youtube-dlc](https://github.com/blackjack4494/yt-dlc) and [ffmpeg](https://www.ffmpeg.org/).
+Install [yt-dlp](https://github.com/pukkandan/yt-dlp) and [ffmpeg](https://www.ffmpeg.org/) (optionnally, install [atomicparsley](https://github.com/wez/atomicparsley), it's required for embedding thumbnails into m4a files).
 
 Note: youtube-dl *should* work but isn't officially supported.
 
