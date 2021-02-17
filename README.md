@@ -55,7 +55,7 @@ Why: Because Windows is using a path length limit of 260 characters, and because
 
 Create a folder where you want your videos downloaded in a drive where you have enough space available.
 
-Put the folders `Active Scripts`, `Archive Scripts` and `Watch Script` in the created folder (See the documentation to understand the differences).
+Put the folders `Archivist Scripts`, `Audio-Only Scripts` and `Watch Scripts` in the created folder (See the documentation to understand the differences).
 
 Add content to a 'Source - XXXXXX.txt' file depending of what type of content you want to download (See the documentation to understand the differences).
 
