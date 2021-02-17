@@ -28,12 +28,12 @@ Considering that I chose to separate the content:
 
 **Watch on Mobile Devices Script**: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched, in ancient video and audio format that are supported by every mobile devices. (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`).
 
-Consider the "Watch Scripts" and "Watch on Mobile Devices Script" useful for downloading "throwaway" videos. Data normally useful for archivers, such as the thumbnail, are omitted.
+Consider the "Watch Scripts" and "Watch on Mobile Devices Script" useful for downloading "throwaway" videos. Data normally useful for archivists, such as the thumbnail, are omitted.
 
 ---
 
 ### Audio-Only Scripts:
 
-**Channels / Playlists / Unique**: Same as Archivist Scripts, but for Audio-Only content.
+**Channels / Playlists / Unique**: Same as "Archivist Scripts (No Comments)", but for Audio-Only content.
 
-**Listen**: Same as Watch on PC Scripts, but for Audio-Only content.
+**Listen**: Same as "Watch on PC Scripts", but for Audio-Only content.
