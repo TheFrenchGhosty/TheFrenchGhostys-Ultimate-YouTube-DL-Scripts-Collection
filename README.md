@@ -1,4 +1,4 @@
-<h1 align="center">TheFrenchGhosty's YouTube-DL Archivist Scripts</h1>
+<h1 align="center">TheFrenchGhosty's Ultimate YouTube-DL Scripts Collection</h1>
 
 <p align="center">The ultimate collection of scripts for YouTube-DL.</p>
 
