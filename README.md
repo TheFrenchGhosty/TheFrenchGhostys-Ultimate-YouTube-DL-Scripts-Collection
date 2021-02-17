@@ -14,7 +14,8 @@ Associated Reddit /r/Datahoarder post: [Here for 2.0.0](https://redd.it/h7q4nz) 
 - Dedicated scripts to download videos destined to be watched and deleted on a PC
 - Dedicated scripts to download videos destined to be watched on deleted on a Mobile device
 - Easily expandable for users familiar with yt-dlp / youtube-dl
-- [SponsorBlock](https://sponsor.ajay.app/) integration using [mpv_sponsorblock](https://github.com/po5/mpv_sponsorblock) by @po5
+- [SponsorBlock](https://sponsor.ajay.app/) integration using [mpv_sponsorblock](https://github.com/po5/mpv_sponsorblock) by [@po5](https://github.com/po5)
+- [Jellyfin](https://jellyfin.org/) integration using [Jellyfin Youtube Metadata Plugin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) by [@ankenyr](https://github.com/ankenyr)
 - No Contributor License Agreement
 - No Code of Conduct
 
