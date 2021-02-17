@@ -68,7 +68,7 @@ Done.
 
 ## Basics:
 
-- Scripts Type (Archive, Active, Watch...): [Here](docs/Scripts-Type.md)
+- Scripts Type (Archivist, Audio-Only, Watch...): [Here](docs/Scripts-Type.md)
 
 - Content Type (Channels, Playlists, Unique...): [Here](docs/Content-Type.md)
 

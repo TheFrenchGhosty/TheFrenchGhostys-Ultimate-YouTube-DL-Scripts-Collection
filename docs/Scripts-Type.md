@@ -1,4 +1,14 @@
-## Archive, Active, Watch, Watch on Mobile Devices and Audio Only Scripts?
+## Archivist Scripts? Audio-Only Scripts? Watch Scripts?
+
+Archivists Scripts: Scripts made for data archivists/data hoarder: The scripts to use if you want to save some specific content in the best possible quality along with every possible metadata.
+
+Audio-Only Script: Script made to download audio-only content (or that will extract the audio from videos that contain it) in the best possible quality.
+
+Watch Scripts: Scripts made to download content that is made to be watched and deleted, only download the videos, without metadata.
+
+---
+
+### Archivist Scripts:
 
 Downloading and archiving "live" content is complicated, especially because gigabytes of it will be created each day.
 
@@ -8,12 +18,20 @@ Archive Scripts: Scripts that will download everything that was created before D
 
 Active Scripts: Scripts that will download everything that was created after January 1 of the current year (included). For example, if the current date is 2021-02-02, everything created between and during the dates 2021-01-01 and 2021-02-02 will be downloaded.
 
-Watch Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`).
+---
 
-Watch on Mobile Devices Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched, in old video and audio format that are support by every mobile devices. (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`).
+### Watch on PC Scripts:
 
-Consider the "Watch Script" and "Watch on Mobile Devices Script" useful for downloading "throwaway" videos. Data normally useful for archivers, such as the thumbnail, are omitted.
+Watch Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched, in modern video and audio format that are not always supported by mobile devices. (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`).
 
-Audio Only Script: Script that will only download audio (or that will extract the audio from videos that contain it) in the best possible quality.
+Watch on Mobile Devices Script: Script that will download individual videos made by a creator that are not meant to be archived but deleted after being watched, in ancient video and audio format that are supported by every mobile devices. (naming scheme: `Uploader - 20201231 - Title [VIDEOID].ext`).
 
-These dates will need to be incremented every year January 1 and the content created by the active scripts will need to be moved to the archive (including the `archive.log` that will need to be merged). 
+Consider the "Watch Scripts" and "Watch on Mobile Devices Script" useful for downloading "throwaway" videos. Data normally useful for archivers, such as the thumbnail, are omitted.
+
+---
+
+### Audio-Only Scripts:
+
+Channels / Playlists / Unique: Same as Archivist Scripts, but for Audio-Only content.
+
+Listen: Same as Watch on PC Scripts, but for Audio-Only content.
