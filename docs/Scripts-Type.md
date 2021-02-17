@@ -18,7 +18,7 @@ Considering that I chose to separate the content:
 
 **Archivist Scripts (No Comments)**: Same as the Archivists Scripts, but comments aren't downloaded.
 
-**Recent Scripts**: Scripts that will download everything that was created the current date, minus 30 days. For example, if the current date is 2021-01-30, everything created **after** 2021-01-01 will be downloaded.
+**Recent Scripts**: Scripts that will download everything that was created the current date, minus 30 days. For example, if the current date is 2021-01-30, everything created **after** 2021-01-01 will be downloaded, it won't necessarily download the best possible quality since YouTube sometimes takes days to weeks to process videos, however it's useful to have in case videos get takedown by YouTube or their author in the first month.
 
 ---
 
