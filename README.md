@@ -2,7 +2,7 @@
 
 <p align="center">The ultimate collection of scripts for YouTube-DL.</p>
 
-Associated Reddit /r/Datahoarder post: [Here for 2.0.0](https://redd.it/h7q4nz) and [Here for 1.0.0](https://redd.it/dwhvq6).
+Associated Reddit /r/Datahoarder post: [Here for 3.0.0](https://redd.it/llw7zq) | [Here for 2.0.0](https://redd.it/h7q4nz) | [Here for 1.0.0](https://redd.it/dwhvq6).
 
 ## Features:
 
