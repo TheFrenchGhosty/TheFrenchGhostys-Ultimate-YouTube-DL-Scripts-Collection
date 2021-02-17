@@ -37,8 +37,6 @@ Install [yt-dlp](https://github.com/pukkandan/yt-dlp) and [ffmpeg](https://www.f
 
 Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/releases) and follow the included ReadMe, do not use the `master` branch unless you are ready to redownload EVERYTHING.
 
-Note: youtube-dl *should* work but isn't officially supported.
-
 ---
 
 ## Installation (Windows):

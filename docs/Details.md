@@ -36,7 +36,7 @@
 
 `--embed-subs`: Tell yt-dlp to embed subtitles in the video.
 
-`--get-comments`: Tell yt-dlp to download YouTube comments to `info.json`.
+`--get-comments`: Tell yt-dlp to download YouTube comments to `info.json` (this is REALLY slow).
 
 (Audio Only Scripts) `--extract-audio`: Extract audio if it's included in a video file, otherwise don't do anything.
 
