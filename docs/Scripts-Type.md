@@ -10,13 +10,13 @@ Watch Scripts: Scripts made to download content that is made to be watched and d
 
 ### Archivist Scripts:
 
-Downloading and archiving "live" content is complicated, especially because gigabytes of it will be created each day.
+Downloading and archiving YouTube content is complicated, especially because YouTube sometimes can take days to transcode videos to the best quality. A workarround to this issue is to have a script that will download everything that came out 30 days ago (and before) and, to avoid missing videos takedown/delete, have a script that will download everything created in the last 30 days potentially in a quality that's not the best.
 
 Considering that I chose to separate the content:
 
-Archive Scripts: Scripts that will download everything that was created before December 31 of the previous year (included). For example, if the current date is any day between 2021-01-01 and 2021-12-31, everything created up to and including 2020-12-31 will be downloaded. Because YouTube takes time to transcode videos (usually 1 week, maximum 1 month), you may want to avoid running the Archive Scripts too soon into the new year.
+Archivist Scripts: Scripts that will download everything that was created before the current date, minus 30 days. For example, if the current date is 2021-01-30, everything created **before** 2021-01-01 will be downloaded. This is needed because YouTube takes time to transcode videos (usually 1 week but sometimes more, the script assume it will take a maximum of 1 month).
 
-Active Scripts: Scripts that will download everything that was created after January 1 of the current year (included). For example, if the current date is 2021-02-02, everything created between and during the dates 2021-01-01 and 2021-02-02 will be downloaded.
+Recent Scripts: Scripts that will download everything that was created the current date, minus 30 days. For example, if the current date is 2021-01-30, everything created **after** 2021-01-01 will be downloaded.
 
 ---
 
