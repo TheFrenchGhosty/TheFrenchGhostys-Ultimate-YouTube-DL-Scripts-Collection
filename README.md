@@ -15,7 +15,7 @@ Associated Reddit /r/Datahoarder post: [Here for 2.0.0](https://redd.it/h7q4nz) 
 - Dedicated scripts to download videos destined to be watched on deleted on a Mobile device
 - Easily expandable for users familiar with yt-dlp / youtube-dl
 - [SponsorBlock](https://sponsor.ajay.app/) integration using [mpv_sponsorblock](https://github.com/po5/mpv_sponsorblock) by [@po5](https://github.com/po5)
-- [Jellyfin](https://jellyfin.org/) integration using [Jellyfin Youtube Metadata Plugin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) by [@ankenyr](https://github.com/ankenyr)
+- [Jellyfin](https://jellyfin.org/) integration using [Jellyfin YouTube Metadata Plugin](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) by [@ankenyr](https://github.com/ankenyr)
 - No Contributor License Agreement
 - No Code of Conduct
 
@@ -35,7 +35,7 @@ Monero (XMR): [44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEP
 
 Install [yt-dlp](https://github.com/pukkandan/yt-dlp) and [ffmpeg](https://www.ffmpeg.org/) (optionnally, install [atomicparsley](https://github.com/wez/atomicparsley)), it's required for embedding thumbnails into m4a files).
 
-Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/releases) and follow the included ReadMe, do not use the `master` branch unless you are ready to redownload EVERYTHING.
+Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/releases) and follow the included ReadMe, do not use the `master` branch unless you are ready to re-download EVERYTHING.
 
 ---
 
@@ -43,7 +43,7 @@ Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhosty
 
 Setup Windows Subsystem for Linux (WSL) and follow the Linux installation.
 
-Detailled setup instruction need to be added to the documentation.
+Detailed setup instruction need to be added to the documentation.
 
 Why: Because Windows is using a path length limit of 260 characters, and because of the work required (and the fact that the Windows version was untested when it existed), Windows users needs to use the scripts in WSL. WSL bypass the path length limit so every video will get downloaded, however when playing it with a native Windows software the path length issue might be an issue, I can't do anything about that.
 
@@ -73,7 +73,7 @@ Done.
 
 ## Advanced:
 
-- Sponsorblock implementation: [Here](docs/Sponsorblock.md)
+- SponsorBlock implementation: [Here](docs/SponsorBlock.md)
 
 - Region Restriction: [Here](docs/Region-Restriction.md)
 
