@@ -10,7 +10,7 @@ Watch Scripts: Scripts made to download content that is made to be watched and d
 
 ### Archivist Scripts:
 
-Downloading and archiving YouTube content is complicated, especially because YouTube sometimes can take days to transcode videos to the best quality. A workarround to this issue is to have a script that will download everything that came out 30 days ago (and before) and, to avoid missing videos takedown/delete, have a script that will download everything created in the last 30 days potentially in a quality that's not the best.
+Downloading and archiving YouTube content is complicated, especially because YouTube sometimes can take days to transcode videos to the best quality. A workaround to this issue is to have a script that will download everything that came out 30 days ago (and before) and, to avoid missing videos takedown/delete, have a script that will download everything created in the last 30 days potentially in a quality that's not the best.
 
 Considering that I chose to separate the content:
 
