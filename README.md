@@ -47,12 +47,11 @@ Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhosty
 
 TODO
 
-### Installation using Cygwin, Git Bash or similar;
+### Installation using Cygwin, Git Bash or similar:
 
 #### Known Issues
-* Windows has a hard limit of 260 characters for the filepath.  This can cause issues with video downloading.  It is recommended that you make your filepath as short as possible.
+* Windows has a hard limit of 260 characters for the filepath. This can cause issues with video downloading. It is recommended that you make your filepath as short as possible.
 * If you are receiving a permission denied error when attempting to execute python, [this thread](https://stackoverflow.com/questions/56974927/permission-denied-trying-to-run-python-on-windows-10) may be helpful.
-* yt-dlp must be named "yt-dlp.exe".  This means if you down the x86 version, you will need to rename it or create a symlink.
 
 #### Required Software
 In order to run these scripts, the following software packages must be installed:
@@ -61,7 +60,7 @@ In order to run these scripts, the following software packages must be installed
 * [Python 3](https://www.python.org/downloads/)
 * [yt-dlp](https://github.com/pukkandan/yt-dlp) - Make sure this is in your PATH.
 * [ffmpeg](https://www.ffmpeg.org/) - Make sure this is in your PATH.
-* [atomicparsley](https://github.com/wez/atomicparsley) (optional)
+* [atomicparsley](https://github.com/wez/atomicparsley) (optional) - Make sure this is in your PATH.
 
 #### Configuration
 First, make sure that all dependencies are installed and your PATH is configured properly by opening your Bash terminal of choice and executing the following:
