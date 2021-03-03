@@ -43,9 +43,10 @@ Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhosty
 
 ## Installation (Windows):
 
-### Installation using WSL (recommended): TODO
+Installation using WSL (recommended): TODO
 
-### Installation using Cygwin, Git Bash or similar: [Here](docs/Cygwin-Git-Bash.md)
+
+Installation using Cygwin, Git Bash or similar: [Here](docs/Cygwin-Git-Bash.md)
 
 ---
 
