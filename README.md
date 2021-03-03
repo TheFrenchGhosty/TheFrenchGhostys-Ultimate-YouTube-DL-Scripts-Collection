@@ -43,11 +43,10 @@ Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhosty
 
 ## Installation (Windows):
 
-Setup Windows Subsystem for Linux (WSL) and follow the Linux installation.
+Installation using WSL (recommended): TODO
 
-Detailed setup instruction need to be added to the documentation.
 
-Why: Because Windows is using a path length limit of 260 characters, and because of the work required (and the fact that the Windows version was untested when it existed), Windows users needs to use the scripts in WSL. WSL bypass the path length limit so every video will get downloaded, however when playing it with a native Windows software the path length issue might be an issue, I can't do anything about that.
+Installation using Cygwin, Git Bash or similar: [Here](docs/Cygwin-Git-Bash.md)
 
 ---
 
