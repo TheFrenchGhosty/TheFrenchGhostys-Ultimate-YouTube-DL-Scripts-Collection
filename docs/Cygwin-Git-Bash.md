@@ -1,8 +1,9 @@
 ### Installation using Cygwin, Git Bash or similar:
 
 #### Known Issues
-* Windows has a hard limit of 260 characters for the filepath. This can cause issues with video downloading. It is recommended that you make your filepath as short as possible.
 * If you are receiving a permission denied error when attempting to execute python, [this thread](https://stackoverflow.com/questions/56974927/permission-denied-trying-to-run-python-on-windows-10) may be helpful.
+* Downloaded videos will likely exceed Windows' 260-character path length limit and not be playable out of the box. You should read more about [paths](docs/About-Paths.md) to familiarize yourself with the issue, as well as some potential workarounds.
+
 
 #### Required Software
 In order to run these scripts, the following software packages must be installed:
