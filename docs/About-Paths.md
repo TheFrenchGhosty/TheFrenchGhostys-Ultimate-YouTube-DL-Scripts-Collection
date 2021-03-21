@@ -46,7 +46,7 @@ Video players running *inside* WSL do work. To get the videos to display, you ne
 ### Manipulating (copying, moving, renaming, deleting) files with long paths
 Windows and other programs will not let you manipulate files with long paths. Overcome this by manipulating files inside WSL using commandline Linux tools (cp, mv, rm). Alternatively, use a file manager like mc (Midnight Commander). 
 
-HardLinkShell (on Windows) enables copying or moving videos with long paths.
+HardLinkShell (on Windows) enables copying or moving files with long paths.
 
 
 ### Other workarounds
