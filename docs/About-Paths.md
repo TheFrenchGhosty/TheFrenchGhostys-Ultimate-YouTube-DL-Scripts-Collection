@@ -8,10 +8,10 @@ The path of a file or folder specifies its location on the filesystem. The path 
 
 ---
 
-### Path length limits
+### Path length limits on Windows
 
 Windows has a 260-character path length limit for compatibility reasons. This means Windows and other programs will refuse to:
-- create files or folders with filenames that exceed this limit,
+- create files or folders with to exceed this limit,
 - rename existing files or folders to exceed this limit.
 
 It's possible for programs to use alternate methods to bypass the 260-character limit. This is because Windows' underlying NTFS filesystem supports "long paths" with lengths of up to 32,767 characters, [even since the days of Windows XP](https://stackoverflow.com/questions/265769/maximum-filename-length-in-ntfs-windows-xp-and-windows-vista). Incidentally, this is even higher than Linux's 4096-character limit.
@@ -33,7 +33,7 @@ Practically speaking, this means videos downloaded with these scripts will often
 
 ---
 
-### Playing video files with long paths
+### Play video files with long paths
 
 "VLC Media Player" downloaded from the VLC website [does not support long paths](https://forum.videolan.org/viewtopic.php?t=150542). Videos cannot be opened.
 
@@ -41,11 +41,11 @@ Other programs may work. (WIP)
 
 "Metro" apps appear to support long paths. "Movies & TV" (built in to Windows 10), or VLC (from the Microsoft Store).
 
-Video players running *inside* WSL do work. To get the videos to display, you need to set up an Xserver (e.g. Xming, or MobaXterm which has one built in), and possibly install PulseAudio (untested). This is a somewhat complex process and is not recommended for beginners.
+Video players running *inside* WSL do work. To get the videos to display, you need to set up an Xserver (e.g. Xming), or use MobaXterm which has one built in, and possibly install PulseAudio (untested). This is a somewhat complex process and is not recommended for beginners.
 
 ---
 
-### Manipulating (copying, moving, renaming, deleting) files with long paths
+### Manipulate (copy, move, rename, delete) files with long paths
 
 Files and folders with long paths will be impossible to manipulate in programs that don't support them, or in Windows itself. Overcome this by manipulating files inside WSL:
 * Download a file manager like mc (Midnight Commander) - recommended
@@ -57,7 +57,7 @@ Files and folders with long paths will be impossible to manipulate in programs t
 
 ### Other workarounds
 
-Enable a "Group Policy" setting introduced in recent versions of Windows 10 to [remove the 260-character limit](https://superuser.com/questions/1119883/windows-10-enable-ntfs-long-paths-policy-option-missing) and enable support for long paths. For now it doesn't do much; applications need to be updated to support this setting. Not even Windows Explorer seems to support it.
+Enable a "Group Policy" setting introduced in recent versions of Windows 10 to [remove the 260-character limit](https://superuser.com/questions/1119883/windows-10-enable-ntfs-long-paths-policy-option-missing) and enable support for long paths. For now it doesn't do much; applications need to be updated to support this setting (not even Windows Explorer seems to).
 
 Choose a shorter path by not saving files too deeply into the folder tree. This is not really an option for these scripts, if you already store them in the root of the drive.
 
@@ -65,7 +65,7 @@ Choose a shorter path by not saving files too deeply into the folder tree. This 
 
 ### Further resources 
 
-[PathLengthChecker](https://github.com/deadlydog/PathLengthChecker) - Find out a file/folder's path length
+[PathLengthChecker](https://github.com/deadlydog/PathLengthChecker) - Find out the path length of files/folders
 
 [Further reading on WSL and Path Lengths](https://channel9.msdn.com/Blogs/Seth-Juarez/Windows-Subsystem-for-Linux-File-System)
 
