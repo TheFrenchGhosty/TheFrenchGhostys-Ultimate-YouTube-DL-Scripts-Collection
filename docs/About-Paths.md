@@ -16,7 +16,7 @@ Windows has a 260-character path length limit for compatibility reasons. This me
 
 It's possible for programs to use alternate methods to bypass the 260-character limit. This is because the NTFS filesystem supports long path lengths of up to 32,768 characters, [even since the days of Windows XP](https://stackoverflow.com/questions/265769/maximum-filename-length-in-ntfs-windows-xp-and-windows-vista). Incidentally, this is even higher than Linux's 4096-character limit.
 
-However files and folders created by programs that support "long paths" will be impossible to manipulate. They are valid files, but will not be able to be opened, copied, moved, renamed, or deleted.
+However files and folders created by programs that support "long paths" will be difficult to manipulate with most programs. They are valid files, but will not be able to be easily opened, copied, moved, renamed, or deleted, without special tools.
 
 ---
 
