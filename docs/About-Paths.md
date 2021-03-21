@@ -11,7 +11,7 @@ The path of a file or folder specifies its location on the filesystem. The path 
 ### Path length limits on Windows
 
 Windows has a 260-character path length limit for compatibility reasons. This means Windows and other programs will refuse to:
-- create files or folders with to exceed this limit,
+- create files or folders that exceed this limit,
 - rename existing files or folders to exceed this limit.
 
 It's possible for programs to use alternate methods to bypass the 260-character limit. This is because Windows' underlying NTFS filesystem supports "long paths" with lengths of up to 32,767 characters, [even since the days of Windows XP](https://stackoverflow.com/questions/265769/maximum-filename-length-in-ntfs-windows-xp-and-windows-vista). Incidentally, this is even higher than Linux's 4096-character limit.
