@@ -61,7 +61,7 @@ Enable a "Group Policy" setting introduced in recent versions of Windows 10 to [
 
 Choose a shorter path by not saving files too deeply into the folder tree. This is not really an option for these scripts, if you already store them in the root of the drive.
 
-Organize videos and their containing folders with your own organization system (i.e., shorten their names). This is an issue of personal preference. If you break the scripts because it can't files where it expects them to be, that is your problem to deal with.
+Organize videos and their containing folders with your own organization system (i.e., shorten their names). This is an issue of personal preference. If you break the scripts because they can't find files where it expects them to be, that is your problem to deal with.
 
 ---
 

@@ -1,7 +1,7 @@
 ## Installation using WSL
 WSL allows the running of a modified Linux environment (Ubuntu, Debian, OpenSUSE, and more) inside Windows 10. Unlike a virtual machine, it can directly interact with Windows files on the hard drive. 
 
-Main benefits are that it's created by Microsoft, so it's more likely to be better supported. Benefits for the purposes of these scripts are the ability to keep dependencies (ffmpeg, atomicparsley, yt-dlp) up-to-date with package managers like apt or pip. 
+Main benefit: it's created by Microsoft, so it's more likely to be better supported. Benefits for the purposes of these scripts are the ability to keep dependencies (ffmpeg, atomicparsley, yt-dlp) up-to-date with package managers like apt or pip. 
 
 However the setup process does necessitate a relatively large one-time download and storing of WSL's files (approximately 2GB) - users taking issue with this may consider the other options such as Cygwin or Git Bash. [Compare the above here.](https://askubuntu.com/questions/1042285/reduce-size-of-a-wsl-installation-ubuntu-18-on-windows-10)
 
@@ -15,4 +15,3 @@ However the setup process does necessitate a relatively large one-time download 
 Follow the "Manual Install" instructions in the [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10). 
 
 Once WSL is installed, download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts/releases) and follow the "Installation (Linux)" section of this README.
-
