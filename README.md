@@ -43,12 +43,13 @@ Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhosty
 
 ## Installation (Windows):
 
-Because Windows has a path length limit of 260 characters, and because of the work required (and the fact that the Windows version was untested when it existed), Windows users needs to use the scripts in WSL (or something linux-on-windows). WSL is the only thing that bypass the path length limit so every video will get downloaded with it. However when playing those videos with a native Windows software the path length limit might be an issue, I can't do anything about that.
-
-Installation using WSL (recommended): TODO
-
+The Windows version, while it existed, required a lot of work to maintain because it needed specific changes compared to the linux version, and was never extensively tested. Windows users need to use the scripts in WSL, Cygwin, Git Bash, or some other Linux-on-Windows environment that enables Bash functionality in Windows.
+ 
+Installation using WSL (recommended): [Here](docs/WSL.md)
 
 Installation using Cygwin, Git Bash or similar: [Here](docs/Cygwin-Git-Bash.md)
+
+Downloaded videos will likely exceed Windows' 260-character path length limit and not be playable out of the box. You should read more about [paths](docs/About-Paths.md) to familiarize yourself with the issue, as well as some potential workarounds.
 
 ---
 
