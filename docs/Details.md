@@ -38,6 +38,10 @@
 
 `--get-comments`: Tell yt-dlp to download YouTube comments to `info.json` (this is REALLY slow, around 10 comments per second).
 
+` --extractor-args youtube:player_client=android`: Bypass the throttling for non age-gated videos.
+
+`--throttled-rate 100K`: For age-gated videos that are detected to be throttled, it will restart the download.
+
 (Audio Only Scripts) `--extract-audio`: Extract audio if it's included in a video file, otherwise don't do anything.
 
 `--match-filter "!is_live & !live"`: Tell yt-dlp to skip videos that are currently live on YouTube.
@@ -54,6 +58,6 @@
 
 (Recent Scripts) `--dateafter "$(date --date="30 days ago" +%Y%m%d)"`: Tell yt-dlp to download everything that was created after the current date, minus 30 days.
 
-`--batch-file "Source - XXXXXX.txt"`: Tell yt-dlp to look for links in `Source - XXXXXX.txt`. 
+`--extractor-args youtube:player_client=android --throttled-rate 100K --batch-file "Source - XXXXXX.txt"`: Tell yt-dlp to look for links in `Source - XXXXXX.txt`. 
 
 `2>&1 | tee output.log`: Tell the shell to output stdout and stderr to `output.log`.
