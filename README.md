@@ -43,7 +43,7 @@ Download the latest [release](https://github.com/TheFrenchGhosty/TheFrenchGhosty
 
 ## Installation (Windows):
 
-The Windows version, while it existed, required [work|some work|a lot of work|] to maintain because it was [too complex|very buggy|caused hourly BSOD's], and was never extensively tested. Windows users need to use the scripts in WSL, Cygwin, Git Bash, or some other Linux-on-Windows environment that enables Bash functionality in Windows.
+The Windows version, while it existed, required a lot of work to maintain because it needed specific changes compared to the linux version, and was never extensively tested. Windows users need to use the scripts in WSL, Cygwin, Git Bash, or some other Linux-on-Windows environment that enables Bash functionality in Windows.
  
 Installation using WSL (recommended): [Here](docs/WSL.md)
 
