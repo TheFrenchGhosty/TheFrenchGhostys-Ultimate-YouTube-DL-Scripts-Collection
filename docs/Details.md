@@ -58,6 +58,6 @@
 
 (Recent Scripts) `--dateafter "$(date --date="30 days ago" +%Y%m%d)"`: Tell yt-dlp to download everything that was created after the current date, minus 30 days.
 
-`--extractor-args youtube:player_client=android --throttled-rate 100K --batch-file "Source - XXXXXX.txt"`: Tell yt-dlp to look for links in `Source - XXXXXX.txt`. 
+`--batch-file "Source - XXXXXX.txt"`: Tell yt-dlp to look for links in `Source - XXXXXX.txt`. 
 
 `2>&1 | tee output.log`: Tell the shell to output stdout and stderr to `output.log`.
