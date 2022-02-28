@@ -22,6 +22,8 @@
 
 `--add-metadata`: Tell yt-dlp to write metadata to the video files.
 
+`--parse-metadata "%(title)s:%(meta_title)s" --parse-metadata "%(uploader)s:%(meta_artist)s"`: Tell yt-dlp to match the metadata `title` and `uploader` to the name of the uploader (to avoid Content ID tags overwriting them)
+
 `--write-description`: Tell yt-dlp to write video description to a `.description` file.
 
 `--write-info-json`: Tell yt-dlp to write video metadata to a `.info.json` file.
