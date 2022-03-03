@@ -8,7 +8,7 @@ Associated Reddit /r/Datahoarder post: [Here for 3.1.0](https://redd.it/lx3ccm) 
 
 ## Features:
 
-- [Copylefted libre software](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts) (AGPLv3 licensed)
+- [Copylefted libre software](https://github.com/TheFrenchGhosty/TheFrenchGhostys-YouTube-DL-Archivist-Scripts) (GPLv3 licensed)
 - Download content in the best possible quality, better than every other software, period.
 - Download all kind of content: channels, playlists and individual videos
 - Download audio only content, in the best possible quality
