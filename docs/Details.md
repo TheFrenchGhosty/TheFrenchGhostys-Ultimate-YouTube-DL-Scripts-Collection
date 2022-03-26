@@ -44,6 +44,10 @@
 
 `--throttled-rate 100K`: For age-gated videos that are detected to be throttled, it will restart the download.
 
+`--check-formats`: Workaround for an edge case (see this [issue](https://github.com/yt-dlp/yt-dlp/issues/502)).
+
+`--concurrent-fragments 5`:  Set the number of dash/hlsnative fragments to 5 concurrent download to speed things up.
+
 (Audio Only Scripts) `--extract-audio`: Extract audio if it's included in a video file, otherwise don't do anything.
 
 `--match-filter "!is_live & !live"`: Tell yt-dlp to skip videos that are currently live on YouTube.
