@@ -35,13 +35,9 @@ Bitcoin (BTC): bc1qjpal63yc94jw03pnhu3vyfqv7djxsr0lmwe5jk
 
 Monero (XMR): 44yL1VNsRmvW3khxHAQvzr9mfyfkMLFmS5xo3EehkQRgcBSgAUcoqf4Cj9mTyCwEPm1Sif1Pqdbw5UoFCvNLNp6CET277J6
 
-Ethereum (ETH): 0xD11eA4a29775b21DcAf707408E6771373D1d5af9
-
 Litecoin (LTC): ltc1qv4f7q970ajnjzuewj0wet5zed7z8s2qm44u8d7
 
 Wownero (WOW): WW32Bch4nqE9ttJvMwXEiFCmPMwQQrBfAhg8vSRGNX95fV4kEVLZRjqBguQafPMqxxVXYqCqnyNdrFg5G7yrbEur2GcnpKNJp
-
-Bitcoin Cash (BCH): qqypylwtyc9fe649tjn32mhrzz7d28jskcxg5rlnv2
 
 ---
 
