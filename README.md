@@ -25,11 +25,11 @@ Associated Reddit /r/Datahoarder post: [Here for 3.1.0](https://redd.it/lx3ccm) 
 
 ## Donate:
 
-Liberapay: https://liberapay.com/TheFrenchGhosty
+- Liberapay: https://liberapay.com/TheFrenchGhosty
 
-Ko-fi: https://ko-fi.com/TheFrenchGhosty
+- Ko-fi: https://ko-fi.com/TheFrenchGhosty
 
-Patreon: https://www.patreon.com/TheFrenchGhosty
+- Patreon: https://www.patreon.com/TheFrenchGhosty
 
 - Monero (XMR): 87Ak7caLNYa7JKEQT4fYSDFsF5GeUZ21pFYtsNaEBSQZ7X8UcamThvvJeGo3ysuSDHcVAKz5JjX936K7cpJduHBZ5UzhgLZ (preferred)
 
