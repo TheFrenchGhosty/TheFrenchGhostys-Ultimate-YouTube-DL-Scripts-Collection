@@ -3,7 +3,7 @@
 <p align="center">The ultimate collection of scripts for YouTube-DL.</p>
 <p align="center">* Now on BSD!</p>
 
-<p align="left">This fork of TheFrenchGhosty's <a href="https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection">YT-DL Scripts Collection</a> exists as a quick-fix that can also run on BSD derivatives. And yes, that includes us Apple plebians on MacOS/Darwin. Some code used for date-arithmetic was not portable to BSD (specifically the `date --date="30 days ago"` syntax which is `date -j -v-30d` instead). This fork injects some Perl code to have date-artihmetic which is both agnostic of UNIX-distro and shell (works with both `bash` and `zsh`). An more optimised version will probably be merged into the Ghosty's repo at some point, but until then this is a working solution for BSD and Linux users.</p>
+<p align="left">This fork of TheFrenchGhosty's <a href="https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection">YT-DL Scripts Collection</a> exists as a quick-fix that can also run on BSD derivatives. And yes, that includes us Apple plebians on MacOS/Darwin. Some code used for date-arithmetic was not portable to BSD (specifically the `date --date="30 days ago"` syntax which is `date -j -v-30d` instead). This fork injects some Perl code to have date-artihmetic which is both agnostic of UNIX-distro and shell (works with both `bash` and `zsh`). A more optimised version will probably be merged into the Ghosty's repo at some point, but until then this is a working solution for BSD and Linux users.</p>
 
 <p align="center">🎉 Thanks for 1000 stars! 🎉</p>
 
