@@ -1,4 +1,5 @@
-<h1 align="center">TheFrenchGhosty's Ultimate YouTube-DL Scripts Collection [Unix-Agnostic Edition!]*</h1>
+<h1 align="center">TheFrenchGhosty's Ultimate YouTube-DL Scripts Collection</h1>
+<h1 align="center">Unix-Agnostic Edition!*</h1>
 
 <p align="center">The ultimate collection of scripts for YouTube-DL.</p>
 <p align="center">* Now on BSD!</p>
