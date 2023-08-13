@@ -41,6 +41,14 @@ Associated Reddit /r/Datahoarder post: [Here for 3.1.0](https://redd.it/lx3ccm) 
 
 ---
 
+# About the slow to non-existent updates:
+
+As you can see, this project doesn't get a lot of updates, the reason is simple: this project is complete.
+
+I've been using it a lot since I created it: tens of TB of videos were downloaded with the "Archivist Scripts (No Comments)", and I'm using the Watch scripts daily.
+
+---
+
 ## Installation (Linux):
 
 Install [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://www.ffmpeg.org/) (optionally, install the others [yt-dlp dependencies](https://github.com/yt-dlp/yt-dlp#dependencies)).
