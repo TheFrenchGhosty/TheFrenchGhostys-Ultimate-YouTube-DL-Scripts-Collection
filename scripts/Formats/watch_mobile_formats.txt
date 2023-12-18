@@ -1,0 +1,37 @@
+(
+#1080p (HD)
+bestvideo[vcodec^=avc1][height=1080][fps>30]/
+bestvideo[vcodec^=avc1][height=1080]/
+
+#720p (HD)
+bestvideo[vcodec^=avc1][height=720][fps>30]/
+bestvideo[vcodec^=avc1][height=720]/
+
+#480p (SD)
+bestvideo[vcodec^=avc1][height=480][fps>30]/
+bestvideo[vcodec^=avc1][height=480]/
+
+#360p (SD)
+bestvideo[vcodec^=avc1][height=360][fps>30]/
+bestvideo[vcodec^=avc1][height=360]/
+
+#240p (SD)
+bestvideo[vcodec^=avc1][height=240][fps>30]/
+bestvideo[vcodec^=avc1][height=240]/
+
+#144p
+bestvideo[vcodec^=avc1][height=144][fps>30]/
+bestvideo[vcodec^=avc1][height=144]/
+
+#Fallback to bestvideo
+bestvideo[vcodec^=avc1]
+
+)+(
+
+#Audio
+bestaudio[acodec^=mp4a]/
+bestaudio
+)/
+
+#Fallback to best
+best
