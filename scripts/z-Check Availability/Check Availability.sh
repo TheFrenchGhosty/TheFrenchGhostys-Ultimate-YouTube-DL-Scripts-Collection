@@ -4,7 +4,7 @@
 # https://github.com/TheFrenchGhosty/TheFrenchGhostys-Ultimate-YouTube-DL-Scripts-Collection
 # https://github.com/TheFrenchGhosty
 #
-# Version: EXPERIMENTAL
+# Version: 3.4.0 (EXPERIMENTAL)
 #
 
 
