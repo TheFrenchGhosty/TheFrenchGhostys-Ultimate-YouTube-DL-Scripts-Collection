@@ -1,4 +1,4 @@
-# Check Availability Script
+# Check Unavailability Script
 
 An experimental script that check if the downloaded videos are still available on YouTube.
 
