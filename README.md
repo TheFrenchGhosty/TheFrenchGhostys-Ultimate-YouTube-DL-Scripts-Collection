@@ -2,7 +2,7 @@
 
 <p align="center">The ultimate collection of scripts for YouTube-DL.</p>
 
-<p align="center">🎉 Thanks for 1000 stars! 🎉</p>
+<p align="center">🎉 Thanks for 2000 stars! 🎉</p>
 
 Associated Reddit /r/Datahoarder post: [Here for 3.1.0](https://redd.it/lx3ccm) | [Here for 3.0.0](https://redd.it/llw7zq) | [Here for 2.0.0](https://redd.it/h7q4nz) | [Here for 1.0.0](https://redd.it/dwhvq6).
 
